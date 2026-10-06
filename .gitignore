@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated / large artifacts
+work/
+
+# Model weights & checkpoints
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.gguf
+
+# Env / secrets
+.env
